@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700;800&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Manrope', sans-serif;
+}
+
+h1{
+  font-family: 'Days One', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
