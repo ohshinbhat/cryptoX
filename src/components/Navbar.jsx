@@ -5,10 +5,14 @@ const Navbar = () => {
   return (
     <div className=' bg-[#3A3D57] py-4 border-b-2 border-slate-400'>
         <nav className='flex flex-row justify-between text-lg text-white items-center mx-[100px]'>
-          <div className='flex flex-row items-center justify-center gap-3'>
-            <img src={logo}/>
-            <h1 className='text-white font-bold text-3xl'>cryptoX</h1>
-          </div>
+          <a href='/' className='flex flex-row items-center justify-center gap-3'>
+        
+              <img src={logo}/>
+              <h1 className='text-white font-bold text-3xl'>cryptoX</h1>
+
+             
+            
+          </a>
             
             <div className='flex flex-row gap-[100px] items-center'>
                 <Link to="/coins">

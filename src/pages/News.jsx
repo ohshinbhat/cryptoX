@@ -17,17 +17,21 @@ const News = () => {
     <div>
       <Navbar/>
 
-      <div className="bg-purple-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100">
-          <div className="border-t-[1px] border-gray-100">
+      <div className="bg-purple-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100 px-[100px] pt-[100px]">
+          <div className="">
             {newsList.map((news) => 
-                    <NewsCard
-                    key={news.title}
-                    title={news.title} 
-                    des={news.description}
-                    link={news.url}
-                    date={news.date}
+                    <div className='py-[20px]'>
+                      <NewsCard
+                        key={news.title}
+                        title={news.title} 
+                        des={news.description}
+                        link={news.url}
+                        date={news.date}
+                        
+                          />
+                      
+                    </div>
                     
-                      />
                   )}
 
           </div>
